@@ -1,0 +1,30 @@
+{
+  "name": "willphp/cache",
+  "description": "cache组件用于网站缓存管理",
+  "keywords": [
+    "willphp",
+    "一鱼框架",
+    "缓存管理"
+  ],
+  "homepage": "http://www.113344.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "no-mind",
+      "email": "24203741@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6.0",
+    "willphp/config": "~1.0"
+  },
+  "autoload": {
+    "files": [
+      "src/helper.php"
+    ],
+    "psr-4": {
+      "willphp\\cache\\": "src"
+    }
+  }
+}
