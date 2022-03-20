@@ -19,7 +19,7 @@ cache组件提供了多种高效的缓存处理方式，包括File缓存、Memca
 `config/cache.php`配置文件示例如下：
 
 	return [
-		'driver' => 'file', //默认缓存
+		'driver' => 'file', //默认缓存类型
 		'file' => [
 			'dir' => RUNTIME_PATH.'/cache', //文件缓存目录
 		],
